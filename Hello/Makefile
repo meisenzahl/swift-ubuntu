@@ -5,3 +5,6 @@ default:
 
 run:
 	./.build/debug/$(PROGRAM)
+
+clean:
+	rm -rf .build
